@@ -21,7 +21,8 @@ export default class IntroScene{
             this.game.setScene(MenuScene);
         }
     }
-
+    
+ 
     render (dt, ctx, canvas) {
         ctx.fillStyle = '#000000'
         ctx.fillRect(0, 0, canvas.width, canvas.height)
